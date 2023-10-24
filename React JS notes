@@ -8,4 +8,35 @@ Uses JSX(Javascript syntax extension)-Dynamic HTML
 Splits tasks to several components
 No need to hover to another HTML files everytime we click something-Netflix
 
+root.render(
+ <h1>Hello</h1>
+)
+
+This is JSX.Looks like HTML
+JSX is a tag-based language and very similar to HTML
+
+Render should have only one children but that children of the render can have as many child as we  want.
+
+Fragment-Multiple elements without having one parent element  <>....</>
+
+<br> and <img> needs closing tag <br />
+
+Cannot used reserved keywords
+class becomes className
+for becomes htmlFor
+
+We can't write everything inside one root.render.So we seggregate our code into Components.
+
+Component:
+
+export default function App(){
+
+}
+
+HOT MODULE REPLACEMENT (HMR) - The page produces the changed output without the need to refresh the whole page.
+
+React keeps the previous structure in memory and only re-render what needs to be re-rendered by using the
+Virtal DOM.
+
+Reactive data with Hooks and Components -  
 
